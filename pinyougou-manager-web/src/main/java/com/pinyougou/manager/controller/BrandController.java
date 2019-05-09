@@ -25,7 +25,13 @@ public class BrandController {
 		return brandService.getAll();
 		
 	}
-	
+
+	/**
+	 *返回全部列表
+	 * @param page
+	 * @param rows
+	 * @return
+	 */
 	@RequestMapping("/findPage")
 	public PageResult  findPage(int page,int rows){			
 		return brandService.findPage(page, rows);
