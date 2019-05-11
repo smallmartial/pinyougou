@@ -1,5 +1,5 @@
  //控制层 
-app.controller('goodsController' ,function($scope,$controller   ,goodsService){	
+app.controller('goodsController' ,function($scope,$controller   ,goodsService,uploadService){
 	
 	$controller('baseController',{$scope:$scope});//继承
 	
@@ -31,25 +31,22 @@ app.controller('goodsController' ,function($scope,$controller   ,goodsService){
 		);				
 	}
 	
-	//保存 
-	$scope.save=function(){				
-		var serviceObject;//服务层对象  				
-		if($scope.entity.id!=null){//如果有ID
-			serviceObject=goodsService.update( $scope.entity ); //修改  
-		}else{
-			serviceObject=goodsService.add( $scope.entity  );//增加 
-		}				
-		serviceObject.success(
-			function(response){
-				if(response.success){
-					//重新查询 
-		        	$scope.reloadList();//重新加载
-				}else{
-					alert(response.message);
-				}
-			}		
-		);				
-	}
+	//保存
+    $scope.add=function(){
+        $scope.entity.goodsDesc.introduction=editor.html();
+        goodsService.add( $scope.entity).success(
+            function(response){
+                if(response.success){
+                    alert('保存成功');
+                    $scope.entity={};
+                    editor.html('');//清空富文本编辑器
+                }else{
+                    alert(response.message);
+                }
+            }
+        );
+    }
+
 	
 	 
 	//批量删除 
@@ -76,5 +73,21 @@ app.controller('goodsController' ,function($scope,$controller   ,goodsService){
 			}			
 		);
 	}
-    
+
+
+    /**
+     * 上传图片
+     */
+    $scope.uploadFile=function(){
+        uploadService.uploadFile().success(function(response) {
+            if(response.success){//如果上传成功，取出url
+                $scope.image_entity.url=response.message;//设置文件地址
+            }else{
+                alert(response.message);
+            }
+        }).error(function() {
+            alert("上传发生错误");
+        });
+    };
+
 });	

@@ -28,22 +28,27 @@
 	</http>
 
 	<!-- 认证管理器 -->
-	<authentication-manager>
+	<!--<authentication-manager>-->
+	<!--<authentication-provider user-service-ref="userDetailService">-->
+		<!--<password-encoder ref="bcryptEncoder"></password-encoder>-->
 
+	<!--</authentication-provider>-->
+<!--</authentication-manager>-->
+	<authentication-manager>
 		<authentication-provider user-service-ref="userDetailService">
+
 			<password-encoder ref="bcryptEncoder"></password-encoder>
 		</authentication-provider>
 	</authentication-manager>
-
 	<beans:bean id="userDetailService" class="com.pinyougou.service.UserDetailsServiceImpl">
 
 
-		<beans:constructor-arg ref="sellService"/>
+		<beans:constructor-arg name="sellerService" ref="sellerService"/>
 	</beans:bean>
-
+	<!-- 引用dubbo 服务 -->
 	<dubbo:application name="pinyougou-shop-web" />
 	<dubbo:registry address="zookeeper://182.254.227.85:2181"/>
-	<dubbo:reference id="sellService" interface="com.pinyougou.sellergoods.service.SellerService"/>
+	<dubbo:reference id="sellerService"  interface="com.pinyougou.sellergoods.service.SellerService" />
 
 	<beans:bean id="bcryptEncoder"
 				class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
