@@ -1,72 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0d2897d-fef2-4de1-a744-9e5ca7559332" name="Default Changelist" comment="完成商家系统登陆与安全控制功能">
-      <change afterPath="$PROJECT_DIR$/pinyougou-commen/src/main/java/util/FastDFSClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/pinyougou/pojogroup/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/UpdateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/resources/config/fdfs_client.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/service/uploadService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e0d2897d-fef2-4de1-a744-9e5ca7559332" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/ItemCatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/TypeTemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/service/itemCatService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/service/typeTemplateService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-commen/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-commen/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/pinyougou/mapper/TbGoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/pinyougou/mapper/TbGoodsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-dao/target/classes/com/pinyougou/mapper/TbGoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-dao/target/classes/com/pinyougou/mapper/TbGoodsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-dao/target/pinyougou-dao-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-dao/target/pinyougou-dao-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/src/main/java/com/pinyougou/manager/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/src/main/java/com/pinyougou/manager/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/src/main/java/com/pinyougou/manager/controller/ItemCatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/src/main/java/com/pinyougou/manager/controller/ItemCatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/admin/item_cat.html" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/admin/item_cat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/js/controller/itemCatController.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/js/controller/itemCatController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/js/controller/itemController.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/js/controller/itemController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/js/service/itemCatService.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/js/service/itemCatService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/target/classes/com/pinyougou/manager/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/target/classes/com/pinyougou/manager/controller/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/target/classes/com/pinyougou/manager/controller/ItemCatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/target/classes/com/pinyougou/manager/controller/ItemCatController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/WEB-INF/classes/com/pinyougou/manager/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/WEB-INF/classes/com/pinyougou/manager/controller/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/WEB-INF/classes/com/pinyougou/manager/controller/ItemCatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/WEB-INF/classes/com/pinyougou/manager/controller/ItemCatController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/WEB-INF/lib/pinyougou-sellergoods-interface-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/WEB-INF/lib/pinyougou-sellergoods-interface-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/admin/item_cat.html" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/admin/item_cat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/js/controller/itemCatController.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/js/controller/itemCatController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/js/controller/itemController.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/js/controller/itemController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/js/service/itemCatService.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-manager-web/target/pinyougou-manager-web-0.0.1-SNAPSHOT/js/service/itemCatService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-pojo/target/pinyougou-pojo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-pojo/target/pinyougou-pojo-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-interface/src/main/java/com/pinyougou/sellergoods/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-interface/src/main/java/com/pinyougou/sellergoods/service/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-interface/src/main/java/com/pinyougou/sellergoods/service/ItemCatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-interface/src/main/java/com/pinyougou/sellergoods/service/ItemCatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-interface/target/classes/com/pinyougou/sellergoods/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-interface/target/classes/com/pinyougou/sellergoods/service/GoodsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-interface/target/classes/com/pinyougou/sellergoods/service/ItemCatService.class" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-interface/target/classes/com/pinyougou/sellergoods/service/ItemCatService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-interface/target/pinyougou-sellergoods-interface-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-interface/target/pinyougou-sellergoods-interface-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougou-commen/target/pinyougou-commen-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-commen/target/pinyougou-commen-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-interface/src/main/java/com/pinyougou/sellergoods/service/TypeTemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-interface/src/main/java/com/pinyougou/sellergoods/service/TypeTemplateService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/pinyougou/sellergoods/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/pinyougou/sellergoods/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/pinyougou/sellergoods/service/impl/ItemCatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/pinyougou/sellergoods/service/impl/ItemCatServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/classes/com/pinyougou/sellergoods/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/classes/com/pinyougou/sellergoods/service/impl/GoodsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/classes/com/pinyougou/sellergoods/service/impl/ItemCatServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/classes/com/pinyougou/sellergoods/service/impl/ItemCatServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-0.0.1-SNAPSHOT/WEB-INF/classes/com/pinyougou/sellergoods/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-0.0.1-SNAPSHOT/WEB-INF/classes/com/pinyougou/sellergoods/service/impl/GoodsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-0.0.1-SNAPSHOT/WEB-INF/classes/com/pinyougou/sellergoods/service/impl/ItemCatServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-0.0.1-SNAPSHOT/WEB-INF/classes/com/pinyougou/sellergoods/service/impl/ItemCatServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-0.0.1-SNAPSHOT/WEB-INF/lib/pinyougou-dao-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-0.0.1-SNAPSHOT/WEB-INF/lib/pinyougou-dao-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-0.0.1-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-0.0.1-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-0.0.1-SNAPSHOT/WEB-INF/lib/pinyougou-sellergoods-interface-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/pinyougou-sellergoods-service-0.0.1-SNAPSHOT/WEB-INF/lib/pinyougou-sellergoods-interface-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/resources/config/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/pinyougou/sellergoods/service/impl/TypeTemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/pinyougou/sellergoods/service/impl/TypeTemplateServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/admin/goods_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/admin/goods_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/controller/baseController.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/controller/baseController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/controller/goodsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/controller/goodsController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/classes/com/pinyougou/shop/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/classes/com/pinyougou/shop/controller/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/WEB-INF/classes/com/pinyougou/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/WEB-INF/classes/com/pinyougou/service/UserDetailsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/WEB-INF/classes/com/pinyougou/shop/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/WEB-INF/classes/com/pinyougou/shop/controller/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/WEB-INF/classes/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/WEB-INF/classes/spring/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/WEB-INF/lib/pinyougou-pojo-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/WEB-INF/lib/pinyougou-sellergoods-interface-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/WEB-INF/lib/pinyougou-sellergoods-interface-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/admin/goods_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/admin/goods_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/js/controller/goodsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/js/controller/goodsController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/classes/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/classes/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/classes/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/WEB-INF/classes/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/WEB-INF/classes/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/pinyougou-shop-web-0.0.1-SNAPSHOT/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pinyougou-shop-web/target/tomcat/logs/access_log.2019-05-11" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/tomcat/logs/access_log.2019-05-11" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pinyougou-dao/target/" />
@@ -85,63 +38,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pinyougou-commen/src/main/java/util/FastDFSClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-161">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/resources/spring/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/UpdateController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#303#323#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/service/uploadService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/controller/goodsController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="102" selection-start-line="102" selection-end-line="102" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/pinyougou/sellergoods/service/impl/GoodsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="111" column="20" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1740#2875#1" />
+                <element signature="e#2986#2987#0" expanded="true" />
+                <element signature="e#3030#3031#0" expanded="true" />
+                <element signature="e#3127#3128#0" expanded="true" />
+                <element signature="e#3175#3176#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/GoodsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/admin/goods_edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="159" column="150" selection-start-line="159" selection-start-column="150" selection-end-line="159" selection-end-column="150" />
+            <state relative-caret-position="454">
+              <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
             </state>
           </provider>
         </entry>
@@ -176,6 +106,10 @@
       <find>insert</find>
       <find>TbGoods</find>
       <find>保</find>
+      <find>扩展</find>
+      <find>entity</find>
+      <find>$scope.entity</find>
+      <find>是</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,11 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pinyougou-pojo/src/main/java/entity/PageResult.java" />
-        <option value="$PROJECT_DIR$/pinyougou-manager-web/src/main/java/com/pinyougou/manager/controller/BrandController.java" />
-        <option value="$PROJECT_DIR$/pinyougou-manager-web/pom.xml" />
-        <option value="$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/login.html" />
         <option value="$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/js/service/loginService.js" />
         <option value="$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/js/controller/indexController.js" />
         <option value="$PROJECT_DIR$/pinyougou-manager-web/src/main/java/com/pinyougou/manager/controller/LoginController.java" />
@@ -224,7 +153,6 @@
         <option value="$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/GoodsController.java" />
         <option value="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/pinyougou/mapper/TbGoodsMapper.xml" />
         <option value="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/pinyougou/pojogroup/Goods.java" />
-        <option value="$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/pinyougou/sellergoods/service/impl/GoodsServiceImpl.java" />
         <option value="$PROJECT_DIR$/pinyougou-shop-web/pom.xml" />
         <option value="$PROJECT_DIR$/pinyougou-commen/pom.xml" />
         <option value="$PROJECT_DIR$/pinyougou-shop-web/src/main/resources/config/fdfs_client.conf" />
@@ -232,8 +160,15 @@
         <option value="$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/UpdateController.java" />
         <option value="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/service/UploadService.js" />
         <option value="$PROJECT_DIR$/pinyougou-shop-web/src/main/resources/config/application.properties" />
+        <option value="$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/ItemCatController.java" />
+        <option value="$PROJECT_DIR$/pinyougou-sellergoods-interface/src/main/java/com/pinyougou/sellergoods/service/TypeTemplateService.java" />
+        <option value="$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/pinyougou/sellergoods/service/impl/TypeTemplateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/TypeTemplateController.java" />
+        <option value="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/service/typeTemplateService.js" />
+        <option value="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/controller/baseController.js" />
         <option value="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/controller/goodsController.js" />
         <option value="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/admin/goods_edit.html" />
+        <option value="$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/pinyougou/sellergoods/service/impl/GoodsServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -304,6 +239,7 @@
       <select />
     </treeState>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
@@ -318,6 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,37 +265,97 @@
             <path>
               <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
               <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
-              <item name="pinyougou-commen" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-manager-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
               <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
-              <item name="pinyougou-commen" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
               <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
-              <item name="pinyougou-commen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
-              <item name="pinyougou-commen" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
               <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
-              <item name="pinyougou-commen" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
@@ -431,6 +428,87 @@
             <path>
               <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
               <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-sellergoods-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-sellergoods-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-sellergoods-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-sellergoods-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-sellergoods-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-sellergoods-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-sellergoods-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou" type="462c0819:PsiDirectoryNode" />
+              <item name="sellergoods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-sellergoods-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou" type="462c0819:PsiDirectoryNode" />
+              <item name="sellergoods" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-sellergoods-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou" type="462c0819:PsiDirectoryNode" />
+              <item name="sellergoods" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
               <item name="pinyougou-shop-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -472,6 +550,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="pinyougou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
@@ -495,32 +584,6 @@
               <item name="pinyougou" type="462c0819:PsiDirectoryNode" />
               <item name="shop" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
-              <item name="pinyougou-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
-              <item name="pinyougou-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pinyougou-parent1" type="462c0819:PsiDirectoryNode" />
-              <item name="pinyougou-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pinyougou-parent1" type="b2602c69:ProjectViewProjectNode" />
@@ -573,13 +636,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557571582049" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557571995251" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -593,11 +655,11 @@
       <recent name="com.pinyougou.shop.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javademo\pinyougou-parent1\pinyougou-shop-web\src\main\webapp\js\service" />
       <recent name="E:\javademo\pinyougou-parent1\pinyougou-shop-web\src\main\resources\config" />
       <recent name="E:\javademo\pinyougou-parent1\pinyougou-commen\src\main\java\util" />
       <recent name="E:\javademo\pinyougou-parent1\pinyougou-shop-web\src\main\webapp\js\controller" />
       <recent name="E:\javademo\pinyougou-parent1\pinyougou-shop-web\src\main\java\com\pinyougou\shop\controller" />
-      <recent name="E:\javademo\pinyougou-parent1\pinyougou-shop-web\src\main\webapp\js\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -625,7 +687,8 @@
       <workItem from="1557313313060" duration="5504000" />
       <workItem from="1557380675006" duration="3419000" />
       <workItem from="1557455073047" duration="42233000" />
-      <workItem from="1557566429318" duration="3497000" />
+      <workItem from="1557566429318" duration="4348000" />
+      <workItem from="1557640092375" duration="9062000" />
     </task>
     <task id="LOCAL-00001" summary="实现模板管理">
       <created>1557405347002</created>
@@ -641,11 +704,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557405661571</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="商品录入（一）">
+      <created>1557571781187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557571781188</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54653000" />
+    <option name="totallyTimeSpent" value="64566000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -657,10 +727,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24262735" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24597855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -670,7 +739,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.5086705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.5086705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40028903" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -681,13 +750,13 @@
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.45086706" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.5736994" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.57287157" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32947975" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.15616623" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.22520107" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.22520107" />
       <window_info anchor="right" id="PlantUML" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Flutter Inspector" order="6" weight="0.3297587" />
@@ -754,7 +823,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="实现模板管理" />
     <MESSAGE value="完成商家系统登陆与安全控制功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成商家系统登陆与安全控制功能" />
+    <MESSAGE value="商品录入（一）" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品录入（一）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -779,50 +849,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/indexController.js" />
-    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/sampling.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="135" column="7" lean-forward="true" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-manager-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/controller/baseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-711" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/service/sellerService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/admin/home.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/js/controller/sellerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/js/controller/indexController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="61" selection-start-column="61" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/service/goodsService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-300" />
@@ -1018,30 +1044,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/Java/jdk1.8.0_162/src.zip!/java/net/SocketInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/pinyougou/sellergoods/service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1067,24 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/UpdateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#303#323#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1116,14 +1104,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-commen/src/main/java/util/FastDFSClient.java">
+    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/target/tomcat/logs/access_log.2019-05-11">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-4476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/service/uploadService.js">
@@ -1133,17 +1116,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/UpdateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-commen/src/main/java/util/FastDFSClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/service/itemCatService.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/TypeTemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+          <folding>
+            <element signature="e#2433#2434#0" expanded="true" />
+            <element signature="e#2483#2484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/service/typeTemplateService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/pinyougou/sellergoods/service/impl/TypeTemplateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-sellergoods-interface/src/main/java/com/pinyougou/sellergoods/service/TypeTemplateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/ItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/controller/baseController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/controller/goodsController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="664">
+          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/admin/goods_edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="159" column="150" selection-start-line="159" selection-start-column="150" selection-end-line="159" selection-end-column="150" />
+        <state relative-caret-position="454">
+          <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/java/com/pinyougou/shop/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/pinyougou/sellergoods/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="111" column="20" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1740#2875#1" />
+            <element signature="e#2986#2987#0" expanded="true" />
+            <element signature="e#3030#3031#0" expanded="true" />
+            <element signature="e#3127#3128#0" expanded="true" />
+            <element signature="e#3175#3176#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
