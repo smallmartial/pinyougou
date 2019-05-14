@@ -59,6 +59,6 @@ public interface GoodsService {
 	 */
 	public PageResult findPage(TbGoods goods, int pageNum,int pageSize);
 
-
+	public void updateStatus(Long [] ids,String status);
 	
 }

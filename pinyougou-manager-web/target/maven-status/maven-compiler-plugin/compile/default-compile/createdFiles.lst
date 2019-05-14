@@ -1,2 +1,5 @@
 com\pinyougou\manager\controller\LoginController.class
+com\pinyougou\manager\controller\UpdateController.class
 com\pinyougou\manager\controller\BrandController.class
+com\pinyougou\manager\controller\ContentCategoryController.class
+com\pinyougou\manager\controller\ContentController.class

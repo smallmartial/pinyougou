@@ -15,6 +15,7 @@ import com.pinyougou.pojo.TbGoodsExample.Criteria;
 import com.pinyougou.sellergoods.service.GoodsService;
 
 import entity.PageResult;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * 服务实现层
@@ -22,6 +23,7 @@ import entity.PageResult;
  *
  */
 @Service
+@Transactional
 public class GoodsServiceImpl implements GoodsService {
 
 	@Autowired
@@ -69,6 +71,7 @@ public class GoodsServiceImpl implements GoodsService {
 	public void add(Goods goods) {
 		goods.getGoods().setAuditStatus("0");//设置未申请状态
 		goodsMapper.insert(goods.getGoods());
+		//int x=1/0;
 		goods.getGoodsDesc().setGoodsId(goods.getGoods().getId());//设置ID
 		goodsDescMapper.insert(goods.getGoodsDesc());//插入商品扩展数据
 		saveItemList(goods);//插入sku商品
@@ -171,8 +174,10 @@ public class GoodsServiceImpl implements GoodsService {
 	@Override
 	public void delete(Long[] ids) {
 		for(Long id:ids){
-			goodsMapper.deleteByPrimaryKey(id);
-		}		
+			TbGoods goods = goodsMapper.selectByPrimaryKey(id);
+			goods.setIsDelete("1");
+			goodsMapper.updateByPrimaryKey(goods);
+		}
 	}
 	
 	
@@ -182,6 +187,7 @@ public class GoodsServiceImpl implements GoodsService {
 		
 		TbGoodsExample example=new TbGoodsExample();
 		Criteria criteria = example.createCriteria();
+		criteria.andIsDeleteIsNull();//非删除状态
 		
 		if(goods!=null){			
 			if(goods.getSellerId()!=null && goods.getSellerId().length()>0){
@@ -214,6 +220,15 @@ public class GoodsServiceImpl implements GoodsService {
 		
 		Page<TbGoods> page= (Page<TbGoods>)goodsMapper.selectByExample(example);		
 		return new PageResult(page.getTotal(), page.getResult());
+	}
+
+	@Override
+	public void updateStatus(Long[] ids, String status) {
+		for (Long id : ids) {
+			TbGoods goods = goodsMapper.selectByPrimaryKey(id);
+			goods.setAuditStatus(status);
+			goodsMapper.updateByPrimaryKey(goods);
+		}
 	}
 
 	private void setItemValus(Goods goods,TbItem item) {
