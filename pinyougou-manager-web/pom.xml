@@ -104,18 +104,32 @@
           <version>0.0.1-SNAPSHOT</version>
           <scope>compile</scope>
       </dependency>
-      <dependency>
-          <groupId>com.pinyougou</groupId>
-          <artifactId>pinyougou-search-interface</artifactId>
-          <version>0.0.1-SNAPSHOT</version>
-          <scope>compile</scope>
-      </dependency>
-      <dependency>
-          <groupId>com.pinyougou</groupId>
-          <artifactId>pinyougou-page-interface</artifactId>
-          <version>0.0.1-SNAPSHOT</version>
-          <scope>compile</scope>
-      </dependency>
+      <!--<dependency>-->
+          <!--<groupId>com.pinyougou</groupId>-->
+          <!--<artifactId>pinyougou-search-interface</artifactId>-->
+          <!--<version>0.0.1-SNAPSHOT</version>-->
+          <!--<scope>compile</scope>-->
+      <!--</dependency>-->
+
+
+	  <!--<dependency>-->
+		  <!--<groupId>org.apache.activemq</groupId>-->
+		  <!--<artifactId>activemq-client</artifactId>-->
+		  <!--<version>5.13.4</version>-->
+	  <!--</dependency>-->
+
+	  <dependency>
+		  <groupId>org.apache.activemq</groupId>
+		  <artifactId>activemq-all</artifactId>
+		  <version>5.13.4</version>
+	  </dependency>
+	  <!--<dependency>-->
+		  <!--<groupId>com.pinyougou</groupId>-->
+		  <!--<artifactId>pinyougou-page-interface</artifactId>-->
+		  <!--<version>0.0.1-SNAPSHOT</version>-->
+		  <!--<scope>compile</scope>-->
+	  <!--</dependency>-->
+
   </dependencies>
   
   

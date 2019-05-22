@@ -2,4 +2,8 @@ com\pinyougou\manager\controller\LoginController.class
 com\pinyougou\manager\controller\UpdateController.class
 com\pinyougou\manager\controller\BrandController.class
 com\pinyougou\manager\controller\ContentCategoryController.class
+com\pinyougou\manager\controller\GoodsController$1.class
+com\pinyougou\manager\controller\GoodsController$4.class
+com\pinyougou\manager\controller\GoodsController$3.class
 com\pinyougou\manager\controller\ContentController.class
+com\pinyougou\manager\controller\GoodsController$2.class
