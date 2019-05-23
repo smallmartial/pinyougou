@@ -156,7 +156,8 @@ public class UserServiceImpl implements UserService {
 		System.out.println("验证码"+code);
 		//存入缓存
 		redisTemplate.boundHashOps("smscode").put(phone,code);
-		//将短信内容发送到mq
+		//TODO 将短信内容发送到mq
+
 
 	}
 

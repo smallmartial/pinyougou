@@ -5,363 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0d2897d-fef2-4de1-a744-9e5ca7559332" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-commen/src/main/java/util/PhoneFormatCheckUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-interface/pinyougou-user-interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-interface/src/main/java/com/pinyougou/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-service/pinyougou-user-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-service/src/main/java/com/pinyougou/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-service/src/main/resources/spring/applicationContext-tx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-service/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/pinyougou-user-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/java/com/pinyougou/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-JD-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-addressList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-cooperation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-getOrderInfo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-login-manage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-myOrder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-pay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-payfail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-paysuccess.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-sampling.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-seckill-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-seckill-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-seckillOrder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-shop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-shoplogin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-success-cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-weixinpay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/pages-zoom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/webbase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/widget-cartPanelView.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/css/widget-jquery.autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-moon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-moon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-moon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-moon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-pc.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-pc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-pc.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-pc.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-tb.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-tb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-tb.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-tb.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-touch.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-touch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-touch.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/fonts/icon-touch.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/57b51ea9Nb862ca5e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/b1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/b2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/buy001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/buy002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/buy01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/cooperation_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/down-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/dp01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/dp02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/dp03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/dp04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/empty_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/erweima.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/fail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/gocart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/gocart01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/gotop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/icon-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/intro01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/intro02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/intro03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/itemlike01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/itemlike02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/itemlike03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/itemlike04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/itemlike05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/itemlike06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/l-m01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/list.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/login-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/manage-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/mobile01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/mobile02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/mobile03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/mobile04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/mobile05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/mobile06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/part01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/part02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/part03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/pay5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/phone14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/photo_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/sampling_head.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/seckillbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/shi_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/shop-intro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/shop-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/shop-part.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/title_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/_/y24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/account.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/ad1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/ali.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/itemlike/itemlike01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/itemlike/itemlike02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/itemlike/itemlike03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/itemlike/itemlike04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/itemlike/itemlike05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/itemlike/itemlike06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/fail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/pay5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/pay/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/dp01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/dp02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/dp03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/dp04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/intro01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/intro02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/intro03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/l-m01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/mobile01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/mobile02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/mobile03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/mobile04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/mobile05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/mobile06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/part01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/part02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/part03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/phone01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/phone02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/phone03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/phone04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/phone05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/phone06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/phone07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/phone08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/phone09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/phone10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/phone11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/phone12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/phone13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/phone/phone14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/success-cart/buy001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/success-cart/buy002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/success-cart/buy01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/success-cart/gocart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/success-cart/gocart01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/zoom/b1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/zoom/b2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/zoom/b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/zoom/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/zoom/s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/assets/img/zoom/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/banner1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/banner2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/banner3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/banner4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/barrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/brand_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/cartPanelViewIcons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/choosed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/duihuan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/erweima.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/floor-1-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/floor-1-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/floor-1-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/floor-1-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/floor-1-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/floor-1-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/floor-1-b01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/floor-1-b02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/floor-1-b03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/goods.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/icon-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/interest01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/interest02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/interest03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/interest04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/interest05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/interest06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/like1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/like2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/like3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/like4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/like_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/like_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/like_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/like_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/like_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/like_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/linker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/loginbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/mod-list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/phone-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/qq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/quan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/sina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/today01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/today02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/today03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/today04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/weixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/wx_cz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/img/zoom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/controller/userController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/czFunction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/model/cartModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/addressList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/city-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/getOrderInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/jquery.slideunlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/login-manage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/person-collect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/person-footmark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/seckill-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/shoplogin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/pages/sm-city-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/angularjs/angular-animate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/angularjs/angular-route.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/angularjs/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/angularjs/pagination.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/angularjs/pagination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/birthday/birthday.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/citypicker/distpicker.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/citypicker/distpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/sui/sui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/plugins/upload/uploadPreview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/service/userService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/widget/cartPanelView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/widget/jquery.autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/widget/nav-portal-top.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/widget/nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyougou-commen/target/pinyougou-commen-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-commen/target/pinyougou-commen-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougou-user-service/src/main/java/com/pinyougou/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-user-service/src/main/java/com/pinyougou/user/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pinyougou-dao/target/" />
     <ignored path="$PROJECT_DIR$/pinyougou-shop-web/target/" />
@@ -421,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pinyougou-user-service/src/main/java/com/pinyougou/user/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="172" column="19" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
+            <state relative-caret-position="306">
+              <caret line="161" column="5" lean-forward="true" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -454,10 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/controller/userController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="656">
               <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
@@ -581,11 +226,11 @@
         <option value="$PROJECT_DIR$/pinyougou-user-web/src/main/java/com/pinyougou/user/controller/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/pinyougou-user-web/pom.xml" />
         <option value="$PROJECT_DIR$/pinyougou-user-interface/src/main/java/com/pinyougou/user/service/UserService.java" />
-        <option value="$PROJECT_DIR$/pinyougou-user-service/src/main/java/com/pinyougou/user/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/pinyougou-user-web/src/main/java/com/pinyougou/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/service/userService.js" />
         <option value="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/controller/userController.js" />
         <option value="$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/register.html" />
+        <option value="$PROJECT_DIR$/pinyougou-user-service/src/main/java/com/pinyougou/user/service/impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -1020,7 +665,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558512337812" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558519837470" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1180,7 +825,7 @@
       <workItem from="1558138986222" duration="15030000" />
       <workItem from="1558348674166" duration="259000" />
       <workItem from="1558398952100" duration="20073000" />
-      <workItem from="1558505034790" duration="7356000" />
+      <workItem from="1558505034790" duration="8316000" />
     </task>
     <task id="LOCAL-00001" summary="实现模板管理">
       <created>1557405347002</created>
@@ -1259,11 +904,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558505533549</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="注册界面完成（未写短信微服务）">
+      <created>1558512748660</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1558512748660</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178491000" />
+    <option name="totallyTimeSpent" value="179451000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1275,7 +927,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1548" height="840" extended-state="0" />
+    <frame x="-6" y="0" width="1548" height="840" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4955357" visible="true" weight="0.27919462" />
       <window_info id="Structure" order="1" sideWeight="0.50446427" side_tool="true" weight="0.2751678" />
@@ -1287,7 +939,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32803467" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.34502923" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986577" weight="0.34502923" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1296,9 +948,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32658958" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32658958" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.24707602" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50402683" side_tool="true" weight="0.57163745" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49932975" weight="0.5718475" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49597314" weight="0.57163745" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32947975" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1380,7 +1032,8 @@
     <MESSAGE value="solr完成" />
     <MESSAGE value="商品页面静态化" />
     <MESSAGE value="商品整合activemq" />
-    <option name="LAST_COMMIT_MESSAGE" value="商品整合activemq" />
+    <MESSAGE value="注册界面完成（未写短信微服务）" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册界面完成（未写短信微服务）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1767,26 +1420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-user-service/src/main/java/com/pinyougou/user/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="172" column="19" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-user-web/src/main/java/com/pinyougou/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/service/userService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1803,8 +1436,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pinyougou-user-web/src/main/webapp/js/controller/userController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="656">
           <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-user-web/src/main/java/com/pinyougou/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-user-service/src/main/java/com/pinyougou/user/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="161" column="5" lean-forward="true" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
