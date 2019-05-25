@@ -11,7 +11,6 @@
     <http pattern="/cart.html" security="none"></http>
 
 
-
     <!--   entry-point-ref  入口点引用 -->
 	<http use-expressions="false" entry-point-ref="casProcessingFilterEntryPoint">
         <intercept-url pattern="/cart/*.do" access="IS_AUTHENTICATED_ANONYMOUSLY"/>

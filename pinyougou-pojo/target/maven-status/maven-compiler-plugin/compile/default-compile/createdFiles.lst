@@ -1,2 +1,12 @@
+com\pinyougou\pojo\TbSeckillGoods.class
+com\pinyougou\pojo\TbSeckillGoodsExample$GeneratedCriteria.class
+com\pinyougou\pojo\TbSeckillGoodsExample.class
+com\pinyougou\pojo\TbSeckillOrder.class
 com\pinyougou\pojogroup\Goods.class
+com\pinyougou\pojo\TbSeckillOrderExample.class
+com\pinyougou\pojo\TbSeckillOrderExample$Criterion.class
 com\pinyougou\pojogroup\Cart.class
+com\pinyougou\pojo\TbSeckillGoodsExample$Criteria.class
+com\pinyougou\pojo\TbSeckillGoodsExample$Criterion.class
+com\pinyougou\pojo\TbSeckillOrderExample$Criteria.class
+com\pinyougou\pojo\TbSeckillOrderExample$GeneratedCriteria.class
